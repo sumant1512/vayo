@@ -1,0 +1,142 @@
+.sticky-side {
+  position: fixed;
+}
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay .flex-d {
+  display: flex;
+  text-align: center;
+}
+
+.overlay .head {
+  margin-top: 34px;
+  font-size: 30px;
+  color: black;
+  display: flex;
+  font-weight: 700;
+  text-align: center;
+  padding-left: 14%;
+}
+
+.overlay-content {
+  position: relative;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: black;
+}
+
+.overlay .closebtn {
+  font-size: 60px;
+  width: 40px;
+}
+
+@media screen and (max-height: 1000px) {
+  .overlay {
+      overflow-y: scroll;
+  }
+}
+
+.d-flex {
+  display: flex;
+  padding: 0 60px;
+}
+
+.ms-Above h3 {
+  margin-bottom: 21px;
+}
+
+.head-side a {
+  display: block;
+  color: black;
+}
+
+.sub-head-side a {
+  display: block;
+  color: black;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  margin-left: 7px;
+}
+
+.head-side {
+  line-height: 46px;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.sub-head-side {
+  margin-left: 40px;
+  font-size: .875rem;
+}
+
+.sub-head-side a {
+  cursor: pointer;
+}
+
+.sm-Below {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .ms-Above {
+      display: none;
+  }
+  .sm-Below {
+      display: block;
+  }
+  .modal-header .close {
+      padding: 1rem 1rem;
+      margin: 0;
+  }
+  .modal-title {
+      margin-right: 70px;
+  }
+  .sub-head-side a {
+      display: block;
+      color: black;
+      margin-left: 15px;
+      margin-bottom: 0px;
+      margin-top: 0px;
+  }
+}
+
+.head-side a span i {
+  font-size: 20px;
+  width: 12%;
+}
+
+.s-button {
+  font-size: 30px;
+  cursor: pointer;
+  text-align: center;
+}
+
+@media screen and (max-width: 1023px) {
+  .sub-head-side {
+      margin-left: 11px;
+      font-size: .875rem;
+  }
+}

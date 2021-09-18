@@ -1,0 +1,89 @@
+.d-card h1 {
+  font-size: 1.5rem;
+  max-height: 4.5rem;
+  }
+
+  .d-card p {
+  color: #6a6a6a;
+  margin-top: 1rem;
+  font-size: .75rem;
+  }
+
+  .card {
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
+  }
+
+  .d-card a {
+  font-size: 15px;
+  color: #4466ff;
+  width: 20%;
+  }
+
+
+  /* button styles */
+
+  .Midnight-Green {
+  background-color: #004953;
+  color: #004953;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  }
+
+  .Space-Gray {
+  background-color: #808080;
+  color: #808080;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  }
+
+  .Rose-gold {
+  background-color: #b76e79;
+  color: #b76e79;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  }
+
+  .Silver {
+  background-color: #aaa9ad;
+  color: #aaa9ad;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  }
+
+  .btn-C {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  }
+
+  .btn-C button {
+  width: 1rem;
+  height: 1rem;
+  }
+
+
+  /* phone image  */
+
+  .img-center {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+  .img-center img {
+  width: 50%;
+  height: 50%;
+  margin-top: 15px;
+  }
+
+  .offer {
+  height: 50px;
+  }

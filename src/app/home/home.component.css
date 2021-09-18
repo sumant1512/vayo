@@ -1,0 +1,250 @@
+.offer {
+    background-color: #f6f0f0;
+    height: auto;
+    width: 100%;
+    padding-left: 50px;
+}
+
+.iphone-rotate {
+    width: 60%;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.offer-align-box {
+    margin-top: 75px;
+}
+
+.offer-align-box h2 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-top: 20px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+}
+
+.offer-head {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.offer-body {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 24px;
+    color: #262626;
+}
+
+.offer-body-link {
+    color: #0000b3;
+    font-size: 16px;
+    letter-spacing: normal;
+    line-height: 1.5;
+    font-weight: 700;
+    padding: 12px 0;
+}
+
+.offer-body-link-parent {
+    margin-top: 40px !important;
+}
+
+.offer-body a {
+    text-decoration: none;
+    color: #262626;
+}
+
+.offer-footer {
+    padding-top: 20px;
+}
+
+.offer-footer p {
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0;
+    color: #262626;
+}
+
+.shop-now {
+    background-color: #f6f0f0;
+    height: auto;
+    width: 100%;
+    border-right: 7.5px solid white;
+}
+
+.shop-now h2 {
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: 0;
+}
+
+.margin {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.samsung-img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shop-now-link {
+    font-weight: 700;
+    color: black;
+}
+
+.upcomming {
+    background-image: url("../../assets/home/[www.t-mobile.com][183]477401-bg-5050-5.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-size: cover;
+    border-left: 7.5px solid white;
+}
+
+.upcomming h2 {
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.upcomming a {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+
+.plan {
+    background-image: url("../../assets/home/[www.t-mobile.com][599]369440-bg-hpcard-join-081219-750x750.jpg");
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+    color: white;
+    padding-top: 60px;
+    background-size: cover;
+    border-right: 7.5px solid white;
+}
+
+.plan a {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+
+.gifting {
+    background-image: url("../../assets/home/HolidayShopDeals.jpg");
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+    color: white;
+    background-size: cover;
+    border-left: 7.5px solid white;
+}
+
+.gifting a {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) and (max-width:1023px) {
+    .iphone-rotate {
+        width: 45vw;
+        margin-top: 65px;
+    }
+    .offer {
+        background-color: #f6f0f0;
+        height: auto;
+        width: 100%;
+        padding-left: 0px;
+        text-align: center;
+    }
+    .offer-align-box {
+        margin-top: 25px;
+    }
+}
+
+@media only screen and (min-width: 569px) and (max-width:767px) {
+    .iphone-rotate {
+        width: 40vw;
+        margin-top: 36vh;
+    }
+    .offer {
+        background-color: #f6f0f0;
+        height: auto;
+        width: 100%;
+        padding-left: 0px;
+        text-align: center;
+    }
+    .offer-align-box {
+        margin-top: 25px;
+    }
+}
+
+@media only screen and (min-width: 20px) and (max-width: 568px) {
+    .offer {
+        background-color: #f6f0f0;
+        height: auto;
+        width: 100%;
+        padding-left: 0px;
+        text-align: center;
+    }
+    .offer-align-box {
+        margin-top: 0px;
+    }
+    .offer-align-box h2 {
+        font-size: 40px;
+        letter-spacing: -1px;
+    }
+    .offer-head {
+        font-size: 10.5px;
+        letter-spacing: 3px;
+        font-weight: 650;
+    }
+    .offer-body-link-parent {
+        margin-top: 0px !important;
+    }
+    .iphone-rotate {
+        width: 70vw;
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+    .img-margin-bottom {
+        margin-bottom: 15px;
+    }
+    .shop-now {
+        background-color: #ded8d8;
+        height: auto;
+        width: 100%;
+        border-right: 0px;
+    }
+    .upcomming {
+        background-image: url("../../assets/home/[www.t-mobile.com][183]477401-bg-5050-5.jpg");
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 100%;
+        color: white;
+        border-left: 0px;
+        background-size: 100% 100%;
+        padding-bottom: 20px;
+    }
+    .plan {
+        background-image: url("../../assets/home/[www.t-mobile.com][599]369440-bg-hpcard-join-081219-750x750.jpg");
+        background-repeat: no-repeat;
+        height: 380px;
+        width: 100%;
+        color: white;
+        background-size: 100% 100%;
+        padding-top: 60px;
+        border-right: 0px;
+    }
+    .gifting {
+        background-image: url("../../assets/home/HolidayShopDeals.jpg");
+        background-repeat: no-repeat;
+        height: 380px;
+        width: 100%;
+        color: white;
+        background-size: 100% 100%;
+        border-left: 0px;
+    }
+}

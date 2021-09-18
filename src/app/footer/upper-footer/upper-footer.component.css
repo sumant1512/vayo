@@ -1,0 +1,197 @@
+.card-body {
+    padding-left: 16px;
+}
+
+div {
+    color: white;
+    border: none;
+}
+
+.heading {
+    font-size: 24px;
+    padding-left: 12px;
+    display: inline-flex;
+    padding-right: 26px;
+}
+
+.fa {
+    font-size: 24px;
+    padding-left: 12px;
+}
+
+.eng-espan {
+    padding-left: 20px;
+    margin-top: 15px;
+}
+
+.eng-espan-float {
+    float: right;
+}
+
+.plus-float {
+    float: right;
+}
+
+i {
+    padding-right: 20px;
+}
+
+i:hover {
+    color: white;
+}
+
+.btn {
+    color: white;
+    width: 100%;
+    text-align: left;
+}
+
+button {
+    border: none;
+}
+
+ul li div {
+    font-size: 15px;
+}
+
+ul li {
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.footer_content a:hover {
+    color: white !important;
+}
+
+.alignment {
+    text-align: right;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.phoneanddeviceslinks::after {
+    font: normal bold normal 17px/1 FontAwesome;
+    content: "\f067"!important;
+    color: white;
+}
+
+.phoneanddeviceslinks[aria-expanded="true"]::after {
+    font: normal bold normal 17px/1 FontAwesome;
+    content: "\f068"!important;
+    color: white;
+}
+
+.plus-padding {
+    padding-top: 6px;
+}
+
+@media screen and (max-width:768px) and (min-width:360px) {
+    .alignment {
+        text-align: left;
+    }
+    .language {
+        text-align: left;
+    }
+    .fa {
+        font-size: 15px;
+        padding-left: 12px;
+    }
+    /* Animation of footer on clicking on '+' icon*/
+    .toggled-item {
+        opacity: 0;
+        -webkit-animation: fadeIn 0.5s 1;
+        animation: fadeIn 0.2s 1;
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+    }
+    .toggled-item:nth-child(5n+1) {
+        -webkit-animation-delay: 0.2s;
+        animation-delay: 0.2s;
+    }
+    .toggled-item:nth-child(5n+2) {
+        -webkit-animation-delay: 0.3s;
+        animation-delay: 0.3s;
+    }
+    .toggled-item:nth-child(5n+3) {
+        -webkit-animation-delay: 0.4s;
+        animation-delay: 0.4s;
+    }
+    .toggled-item:nth-child(5n+4) {
+        -webkit-animation-delay: 0.5s;
+        animation-delay: 0.5s;
+    }
+    .toggled-item:nth-child(5n+5) {
+        -webkit-animation-delay: 0.6s;
+        animation-delay: 0.6s;
+    }
+    .toggled-item:nth-child(5n+6) {
+        -webkit-animation-delay: 0.7s;
+        animation-delay: 0.7s;
+    }
+    .toggled-item:nth-child(5n+7) {
+        -webkit-animation-delay: 0.8s;
+        animation-delay: 0.8s;
+    }
+    /* Animation steps of child footer menu links*/
+    @keyframes fadeIn {
+        from {
+            opacity: 0.0;
+            visibility: visible;
+            transform: translateX(-12px);
+        }
+        to {
+            opacity: 1.0;
+            visibility: visible;
+            transform: translateX(0px);
+        }
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width:768px) {
+    .footer_content {
+        column-count: 4;
+    }
+    .fa {
+        font-size: 15px;
+        padding-left: 0px;
+    }
+    .pad {
+        margin-top: -30px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .footer_content {
+        column-count: 6;
+    }
+    .pad {
+        margin-top: -30px;
+    }
+    .language {
+        text-align: right;
+    }
+}
+
+.desktop-view {
+    display: block;
+}
+
+.mobile-view {
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .desktop-view {
+        display: none;
+    }
+    .mobile-view {
+        display: block;
+    }
+}

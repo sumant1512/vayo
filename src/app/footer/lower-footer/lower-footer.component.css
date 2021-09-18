@@ -1,0 +1,90 @@
+.image {
+    padding-top: 2px;
+    text-align: center;
+}
+
+a {
+    color: white;
+    display: block;
+    padding-right: 20px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white !important;
+}
+
+@media only screen and (min-width: 992px) {
+    .fa {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .row {
+        padding-top: 20px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 20px;
+    }
+    .social-icon {
+        display: flex;
+        padding-bottom: 10px;
+    }
+    .fa {
+        font-size: 24px;
+    }
+    .image {
+        padding-top: 2px;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .fa {
+        font-size: 28px;
+    }
+    .image {
+        padding-top: 2px;
+        text-align: left;
+        padding-right: 0px;
+        padding-left: 8px;
+    }
+    .social-icon {
+        padding-left: 0px;
+    }
+    .h-links{
+        padding-left: 8px;
+    }
+
+}
+
+.container-fluid {
+    background-color: #333333;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.up {
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.down {
+    padding-left: 5px;
+}
+
+li {
+    display: inline-block;
+}
+
+p {
+    color: white;
+    font-size: 13px;
+}
+
+.icon {
+    display: flex;
+    margin-bottom: 20px;
+}

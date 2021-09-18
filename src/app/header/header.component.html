@@ -1,0 +1,412 @@
+<div class="head-top bg-vayo-grey">
+    <a class="bg-white" routerLink="/">WIRELESS</a>
+    <a routerLink="/">BUSINESS</a>
+    <a routerLink="/">PREPAID</a>
+    <a routerLink="/">TV</a>
+    <a routerLink="/">BANKING</a>
+</div>
+<div #navbar>
+    <div class="row">
+        <nav class="navbar navbar-expand-lg w-100 navbar-light bg-white p-2">
+            <a class="m-0 p-0" routerLink="/">
+                <img src="../../assets/header/logo.PNG" alt="vayologo" class="img-responsive">
+            </a>
+            <!--left navigation bar-->
+            <div class="col-lg-6 mid-nav">
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <!-- Left side nav links -->
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown plansdropdown active">
+                            <a class="nav-link dropdown-toggle mt-1 disabled" routerLink="#Plans" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plans
+              </a>
+                            <div class="dropdown-menu border-none planslinks header-dropdown" aria-labelledby="navbarDropdown">
+                                <div class="bg-white p-x-10 dropDown-border-top">
+                                    <a class="dropdown-item font-weight-bold" routerLink="#Magenta">
+                    Magenta&reg;
+                  </a>
+                                    <a class="dropdown-item font-weight-bold" routerLink="#Magenta-plus">
+                    Magenta&reg; plus
+                  </a>
+                                    <a class="dropdown-item font-weight-bold" routerLink="#Essentials">
+                    Essentials
+                  </a>
+                                    <a class="dropdown-item font-weight-bold" routerLink="#Unlimited-55">
+                    Unlimited 55
+                  </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown phonedevicesdropdown active">
+
+                            <a class="nav-link dropdown-toggle disabled mt-1" routerLink="#Phones-&-Devices" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Phones & Devices
+              </a>
+                            <div class="dropdown-menu header-dropdown border-none phoneanddeviceslinks " aria-labelledby="navbarDropdown">
+                                <div class="bg-white p-x-10 dropDown-border-top">
+                                    <a class="dropdown-item font-weight-bold" routerLink="cell-phones">
+                    Cell phones
+                  </a>
+                                    <a class="dropdown-item font-weight-bold" routerLink="tablets">
+                    Tablets
+                  </a>
+                                    <a class="dropdown-item font-weight-bold" routerLink="smart-watches">
+                    Smartwatches
+                  </a>
+                                    <a class="dropdown-item font-weight-bold" routerLink="accessories">
+                    Accessories
+                  </a>
+                                    <a class="dropdown-item font-weight-bold" routerLink="bring-your-own-device">
+                    Bring your own Device
+                  </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown dealsdropdown active">
+                            <a class="nav-link dropdown-toggle disabled mt-1" routerLink="#Deals" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Deals
+              </a>
+                            <div class="dropdown-menu header-dropdown border-none dealslinks" aria-labelledby="navbarDropdown">
+                                <div class="bg-white p-x-10 dropDown-border-top">
+                                    <a class="dropdown-item font-weight-bold" routerLink="#Apple">
+                    Apple
+                  </a>
+                                    <a class="dropdown-item font-weight-bold" routerLink="#Samsung">
+                    Samsung
+                  </a>
+                                    <a class="dropdown-item font-weight-bold" routerLink="#Google">
+                    Google
+                  </a>
+                                    <a class="dropdown-item font-weight-bold" routerLink="#Lg">
+                    Lg
+                  </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown coveragedropdown active">
+                            <a class="nav-link dropdown-toggle mt-1" routerLink="#Coverage" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Coverage
+              </a>
+                            <div class="dropdown-menu header-dropdown border-none coveragelinks" aria-labelledby="navbarDropdown">
+                                <div class="bg-white p-x-10 dropDown-border-top">
+                                    <a class="dropdown-item font-weight-bold" routerLink="#Overview">
+                    Overview
+                  </a>
+                                    <a class="dropdown-item font-weight-bold" routerLink="#Coverage-Map">
+                    Coverage Map
+                  </a>
+                                    <a class="dropdown-item font-weight-bold" routerLink="#What-is-5G?">
+                    What is 5G?
+                  </a>
+                                    <a class="dropdown-item font-weight-bold" routerLink="#Try-our-network">
+                    Try our network
+                  </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown benefitsdropdown active ">
+                            <a class="nav-link dropdown-toggle disabled mt-1" routerLink="#Benefits-&-more" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Benefits & more
+              </a>
+                            <div class="dropdown-menu header-dropdown border-none benefitsandmorelinks" aria-labelledby="navbarDropdown">
+                                <div class="bg-white p-x-10 dropDown-border-top">
+                                    <a class="dropdown-item font-weight-bold" routerLink="#Benefits">
+                    Benefits
+                  </a>
+                                    <a class="dropdown-item font-weight-bold" routerLink="#Why-Vayo">
+                    Why Vayo
+                  </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right-nav-lg ">
+                <span class="float-right ">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active mt-2" routerLink="#Find-a-Store">
+                <i class="fa fa-home" aria-hidden="true"></i> Find a Store</a>
+            </li>
+            <li class="nav-item dropdown contactusdropdown active ">
+              <a class="nav-link dropdown-toggle disabled mt-2" routerLink="#Contact Us" id="navbarDropdown"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Contact Us
+              </a>
+              <div class="dropdown-menu header-dropdown border-none contactuslinks pad-3"
+                aria-labelledby="navbarDropdown">
+                <div class="bg-white  p-x-10 dropDown-border-top">
+                  <a class="dropdown-item font-weight-bold" routerLink="#1800-Vayo">
+                    1800-Vayo
+                  </a>
+                  <a class="dropdown-item font-weight-bold" routerLink="#Check-Order-status">
+                    Check Order status
+                  </a>
+                  <a class="dropdown-item font-weight-bold" routerLink="#Support">
+                    Support
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link active  mt-2" routerLink="#Cart">
+                <i class="fa fa-shopping-cart"></i> Cart</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link active  mt-2" routerLink="#Search">
+                <i class="fa fa-search"></i> Search</a>
+            </li>
+            <li class="nav-item dropdown myaccountdropdown active">
+              <button class="nav-link dropdown-toggle myaccountbutton p-0" routerLink="#My-account" id="navbarDropdown"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Log In / Sign Up
+              </button>
+              <!-- <div class="dropdown-menu  myaccountmenu bg-transparent" aria-labelledby="navbarDropdown">
+                <div class="bg-white">
+                  <div class="row p-3">
+                    <button class=" text-center dropdown-item loginbutton" routerLink="#abc">
+                      Log in
+                    </button>
+                    <a class="dropdown-item myaccountitem disabled px-0 py-3" routerLink="#Check-Order-status">
+                      Quick Actions
+                    </a>
+                    <a class="dropdown-item myaccountitem px-0 py-2 font-weight-bold" routerLink="#Check-Order-status">
+                      Bill pay
+                    </a>
+                    <a class="dropdown-item myaccountitem px-0 py-2 font-weight-bold" routerLink="#Support">
+                      Add a line
+                    </a>
+                    <a class="dropdown-item myaccountitem px-0 py-2 font-weight-bold" routerLink="#Support">
+                      Upgrade
+                    </a>
+                    <a class="dropdown-item myaccountitem px-0 py-2 font-weight-bold" routerLink="#Support">
+                      Check Order Status
+                    </a>
+                    <a class="dropdown-item myaccountitem px-0 py-2 font-weight-bold" routerLink="#Support">
+                      Support
+                    </a>
+                  </div>
+                </div>
+              </div> -->
+            </li>
+          </ul>
+        </span>
+            </div>
+
+            <!--for medium display-->
+
+            <div class="right-nav-md">
+                <span class="float-right ">
+          <ul class="navbar-nav">
+            <li class="nav-item px-2">
+              <a class="nav-link active" routerLink="#Find-a-Store">
+                <i class="fa fa-home" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="nav-item dropdown contactusdropdown active px-2">
+              <a class="nav-link dropdown-toggle" routerLink="#Contact Us" id="navbarDropdown" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-mobile" aria-hidden="true"></i>
+              </a>
+              <div class="dropdown-menu header-dropdown border-none mar-t contactuslinks"
+                aria-labelledby="navbarDropdown">
+                <div class="bg-white">
+                  <a class="dropdown-item" routerLink="#1800-Vayo">
+                    1800-Vayo
+                  </a>
+                  <a class="dropdown-item" routerLink="#Check-Order-status">
+                    Check Order status
+                  </a>
+                  <a class="dropdown-item" routerLink="#Support">
+                    Support
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link active" routerLink="#Cart">
+                <i class="fa fa-shopping-cart"></i>
+              </a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link active" routerLink="#Search">
+                <i class="fa fa-search"></i>
+              </a>
+            </li>
+
+          </ul>
+        </span>
+            </div>
+            <!--For mobile devices-->
+            <div>
+                <div class="mob-nav">
+                    <div class="main-nav">
+                        <a (click)="openNav_login();">
+                            <i class="fa fa-user" aria-hidden="true"></i> Log in</a>
+                        <button class="btn" (click)="openNav();"><i class="fa fa-bars" aria-hidden="true"></i> MENU</button>
+                    </div>
+
+                    <!--Menu sidebar START-->
+                    <div id="side-bar-menu" class="sidebar" #sideBarMenu>
+                        <a routerLink="javascript:void(0)" class="closebtn-menu" (click)="closeNav();">×</a>
+                        <ul class="navbar-nav vertical-menu">
+                            <hr>
+                            <li class="nav-item dropdown plansdropdown active pl-2">
+                                <a class="nav-link dropdown-toggle" routerLink="#Plans" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Plans
+                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" routerLink="#Magenta">
+                    Magenta&reg;
+                  </a>
+                                    <a class="dropdown-item" routerLink="#Magenta-plus">
+                    Magenta&reg; plus
+                  </a>
+                                    <a class="dropdown-item" routerLink="#Essentials">
+                    Essentials
+                  </a>
+                                    <a class="dropdown-item" routerLink="#Unlimited-55">
+                    Unlimited 55
+                  </a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown phonedevicesdropdown active pl-2">
+                                <a class="nav-link dropdown-toggle" routerLink="#Phones-&-Devices" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Phones & Devices
+                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" routerLink="cell-phones">
+                    Cell phones
+                  </a>
+                                    <a class="dropdown-item" routerLink="tablets">
+                    Tablets
+                  </a>
+                                    <a class="dropdown-item" routerLink="smart-watches">
+                    Smartwatches
+                  </a>
+                                    <a class="dropdown-item" routerLink="accessories">
+                    Accessories
+                  </a>
+                                    <a class="dropdown-item" routerLink="bring-your-own-device">
+                    Bring your own Device
+                  </a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown dealsdropdown active pl-2">
+                                <a class="nav-link dropdown-toggle" routerLink="#Deals" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Deals
+                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" routerLink="#Apple">
+                    Apple
+                  </a>
+                                    <a class="dropdown-item" routerLink="#Samsung">
+                    Samsung
+                  </a>
+                                    <a class="dropdown-item" routerLink="#Google">
+                    Google
+                  </a>
+                                    <a class="dropdown-item" routerLink="#Lg">
+                    Lg
+                  </a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown coveragedropdown active pl-2">
+                                <a class="nav-link dropdown-toggle" routerLink="#Coverage" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Coverage
+                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" routerLink="#Overview">
+                    Overview
+                  </a>
+                                    <a class="dropdown-item" routerLink="#Coverage-Map">
+                    Coverage Map
+                  </a>
+                                    <a class="dropdown-item" routerLink="#What-is-5G?">
+                    What is 5G?
+                  </a>
+                                    <a class="dropdown-item" routerLink="#Try-our-network">
+                    Try our network
+                  </a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown benefitsdropdown active pl-2">
+                                <a class="nav-link dropdown-toggle" routerLink="#Benefits-&-more" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Benefits & more
+                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" routerLink="#Benefits">
+                    Benefits
+                  </a>
+                                    <a class="dropdown-item" routerLink="#Why-Vayo">
+                    Why Vayo
+                  </a>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav vertical-menu">
+                            <li class="nav-item pl-2 w-100">
+                                <a class="nav-link active" routerLink="#Find-a-Store">
+                                    <i class="fa fa-home" aria-hidden="true"></i> Find a Store</a>
+                            </li>
+                            <li class="nav-item dropdown contactusdropdown active pl-2">
+                                <a class="nav-link dropdown-toggle" routerLink="#Contact Us" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fa fa-phone"></i> Contact Us
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" routerLink="#1800-Vayo">
+                    1800-Vayo
+                  </a>
+                                    <a class="dropdown-item" routerLink="#Check-Order-status">
+                    Check Order status
+                  </a>
+                                    <a class="dropdown-item" routerLink="#Support">
+                    Support
+                  </a>
+                                </div>
+                            </li>
+                            <li class="nav-item pl-2">
+                                <a class="nav-link active" routerLink="#Cart">
+                                    <i class="fa fa-shopping-cart"></i> Cart</a>
+                            </li>
+                            <li class="nav-item pl-2">
+                                <a class="nav-link active" routerLink="#Search">
+                                    <i class="fa fa-search"></i> Search</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!--Menu sidebar END-->
+
+                    <!--Login sidebar START-->
+                    <div id="sidebar-login" class="sidebar" #sidebarLogin>
+                        <a routerLink="javascript:void(0)" class="closebtn" (click)="closeNav();">×</a>
+                        <button class="btn text-center dropdown-item loginbutton p-2">Log in</button>
+                        <hr>
+                        <a class="dropdown-item disabled quickactionsfont p-2" routerLink="#Check-Order-status">
+              Quick Actions
+            </a>
+                        <a class="dropdown-item myaccountitem" routerLink="#Check-Order-status">
+              Bill pay
+            </a>
+                        <a class="dropdown-item myaccountitem" routerLink="#Support">
+              Add a line
+            </a>
+                        <a class="dropdown-item myaccountitem" routerLink="#Support">
+              Upgrade
+            </a>
+                        <a class="dropdown-item myaccountitem" routerLink="#Support">
+              Check Order Status
+            </a>
+                        <a class="dropdown-item myaccountitem" routerLink="#Support">
+              Support
+            </a>
+                    </div>
+
+                    <!--Login sidebar END-->
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>

@@ -1,0 +1,30 @@
+@import '~font-awesome/css/font-awesome.css';
+.row {
+    margin: 0px!important;
+}
+
+.bg-vayo-grey {
+    background-color: #e0e0e0!important;
+}
+
+a:hover {
+    color: #0000b3!important;
+}
+
+.border-none {
+    border: none!important;
+}
+
+.p-x-10 {
+    padding: 0px 10px!important;
+}
+
+.p-y-10 {
+    padding: 10px 0px!important;
+}
+
+body {
+    max-width: 1400px;
+    margin: 0 auto !important;
+    background-color: #e0e0e04a !important;
+}

@@ -1,0 +1,129 @@
+<div class="ms-Above" #sidestick>
+  <h3>
+    <b>Shop</b>
+  </h3>
+  <div>
+    <hr>
+    <div>
+      <div class="head-side">
+        <a routerLink="cell-phones">
+          <span class=" mr-md-1 mr-lg-4">
+            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fit="" height="9%"
+              width="9%" preserveAspectRatio="xMidYMid meet" focusable="false">
+              <title>Phones</title>
+              <path d="M17.23,24H6.77a2,2,0,0,1-2-2V2a2,2,0,0,1,2-2H17.23a2,2,0,0,1,2,2V22A2,2,0,0,1,17.23,24ZM6.77,1A1,1,0,0,0,5.76,2V22a1,1,0,0,0,1,1.06H17.23a1,1,0,0,0,1-1.06V2a1,1,0,0,0-1-1.06Z"></path>
+              <circle cx="12" cy="19.68" r="0.72"></circle>
+            </svg>
+          </span>Phones</a>
+        <a routerLink="tablets">
+          <span class=" mr-md-1 mr-lg-4">
+            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fit="" height="9%"
+              width="9%" preserveAspectRatio="xMidYMid meet" focusable="false">
+              <title>Tablets</title>
+              <path d="M19.77,24H4.23A1.82,1.82,0,0,1,2.4,22.2V1.8A1.82,1.82,0,0,1,4.23,0H19.77A1.82,1.82,0,0,1,21.6,1.8V22.2A1.82,1.82,0,0,1,19.77,24ZM4.23,1a.86.86,0,0,0-.87.84V22.2a.86.86,0,0,0,.87.84H19.77a.86.86,0,0,0,.87-.84V1.8A.86.86,0,0,0,19.77,1Z"></path>
+              <circle cx="12" cy="19.9" r="1.01"></circle>
+            </svg>
+          </span>Tablets&deices</a>
+        <a routerLink="smart-watches">
+          <span class=" mr-md-1 mr-lg-4">
+            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fit="" height="9%"
+              width="9%" preserveAspectRatio="xMidYMid meet" focusable="false">
+              <title>Watches</title>
+              <path d="M8.78,19.92v2.54A1.54,1.54,0,0,0,10.32,24h3.35a1.54,1.54,0,0,0,1.54-1.54V19.92a8.31,8.31,0,0,1-6.44,0ZM15.22,4.08V1.54A1.54,1.54,0,0,0,13.68,0H10.32A1.54,1.54,0,0,0,8.78,1.54V4.08a8.31,8.31,0,0,1,6.44,0Z"></path>
+              <path d="M12,4.55A7.45,7.45,0,1,0,19.45,12,7.45,7.45,0,0,0,12,4.55Zm0,13.91A6.46,6.46,0,1,1,18.46,12,6.46,6.46,0,0,1,12,18.46Z"></path>
+            </svg>
+          </span>Watches</a>
+        <a routerLink="accessories">
+          <span class=" mr-md-1 mr-lg-4">
+            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fit="" height="9%"
+              width="9%" preserveAspectRatio="xMidYMid meet" focusable="false">
+              <title>Accessories</title>
+              <path d="M23.78,11.77a11.78,11.78,0,0,0-23.55,0V20H2.56v2.24a1.74,1.74,0,1,0,3.47,0V16.95a1.74,1.74,0,0,0-3.47,0V19H1.2V11.77a10.8,10.8,0,0,1,21.6,0V19H21.44v-2.1a1.74,1.74,0,0,0-3.47,0v5.32a1.74,1.74,0,1,0,3.47,0V20h2.33Z"></path>
+            </svg>
+          </span>Accessories</a>
+      </div>
+      <div class="sub-head-side">
+        <a href="javascript:void(0)">Chargers & adapters</a>
+        <a href="javascript:void(0)">Mounts,docks & stands</a>
+        <a href="javascript:void(0)">Others</a>
+        <a href="javascript:void(0)">Screen protectors</a>
+      </div>
+    </div>
+    <div class="sub-head-side" *ngIf="expansionvar">
+      <a href="javascript:void(0)">Smart home</a>
+      <a href="javascript:void(0)">Speakers</a>
+    </div>
+    <div class="sub-head-side">
+      <a *ngIf="expansionvar" (click)="expansion(1)">- Less</a>
+      <a *ngIf="!expansionvar" (click)="expansion(0)">+ More</a>
+    </div>
+  </div>
+
+
+</div>
+<div class="sm-Below">
+
+  <div id="myNav" class="overlay">
+    <div class="flex-d">
+      <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
+      <a href="javascript:void(0)" class="head">Shop categories </a>
+    </div>
+
+
+    <div class="overlay-content">
+
+      <div class="modal-body">
+        <div class="head-side">
+
+          <a routerLink="cell-phones">
+            <span class="mr-sm-2 mr-2">
+              <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fit="" height="4%"
+                width="7%" preserveAspectRatio="xMidYMid meet" focusable="false">
+                <path d="M17.23,24H6.77a2,2,0,0,1-2-2V2a2,2,0,0,1,2-2H17.23a2,2,0,0,1,2,2V22A2,2,0,0,1,17.23,24ZM6.77,1A1,1,0,0,0,5.76,2V22a1,1,0,0,0,1,1.06H17.23a1,1,0,0,0,1-1.06V2a1,1,0,0,0-1-1.06Z"></path>
+                <circle cx="12" cy="19.68" r="0.72"></circle>
+              </svg>
+            </span>Phones</a>
+          <a routerLink="tablets">
+            <span class="mr-sm-2 mr-2">
+              <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fit="" height="4%"
+                width="7%" preserveAspectRatio="xMidYMid meet" focusable="false">
+                <path d="M19.77,24H4.23A1.82,1.82,0,0,1,2.4,22.2V1.8A1.82,1.82,0,0,1,4.23,0H19.77A1.82,1.82,0,0,1,21.6,1.8V22.2A1.82,1.82,0,0,1,19.77,24ZM4.23,1a.86.86,0,0,0-.87.84V22.2a.86.86,0,0,0,.87.84H19.77a.86.86,0,0,0,.87-.84V1.8A.86.86,0,0,0,19.77,1Z"></path>
+                <circle cx="12" cy="19.9" r="1.01"></circle>
+              </svg>
+            </span>Tablets&deices</a>
+          <a routerLink="smart-watches">
+            <span class="mr-sm-2 mr-2">
+              <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fit="" height="4%"
+                width="7%" preserveAspectRatio="xMidYMid meet" focusable="false">
+                <path d="M8.78,19.92v2.54A1.54,1.54,0,0,0,10.32,24h3.35a1.54,1.54,0,0,0,1.54-1.54V19.92a8.31,8.31,0,0,1-6.44,0ZM15.22,4.08V1.54A1.54,1.54,0,0,0,13.68,0H10.32A1.54,1.54,0,0,0,8.78,1.54V4.08a8.31,8.31,0,0,1,6.44,0Z"></path>
+                <path d="M12,4.55A7.45,7.45,0,1,0,19.45,12,7.45,7.45,0,0,0,12,4.55Zm0,13.91A6.46,6.46,0,1,1,18.46,12,6.46,6.46,0,0,1,12,18.46Z"></path>
+              </svg>
+            </span>Watches</a>
+          <a routerLink="accessories">
+            <span class="mr-sm-2 mr-2">
+              <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fit="" height="4%"
+                width="7%" preserveAspectRatio="xMidYMid meet" focusable="false">
+                <path d="M23.78,11.77a11.78,11.78,0,0,0-23.55,0V20H2.56v2.24a1.74,1.74,0,1,0,3.47,0V16.95a1.74,1.74,0,0,0-3.47,0V19H1.2V11.77a10.8,10.8,0,0,1,21.6,0V19H21.44v-2.1a1.74,1.74,0,0,0-3.47,0v5.32a1.74,1.74,0,1,0,3.47,0V20h2.33Z"></path>
+              </svg>
+            </span>Accessories</a>
+
+        </div>
+        <div class="sub-head-side">
+          <a href="javascript:void(0)">Chargers & adapters</a>
+          <a href="javascript:void(0)">Mounts,docks & stands</a>
+          <a href="javascript:void(0)">Others</a>
+          <a href="javascript:void(0)">Screan protectors</a>
+          <a href="javascript:void(0)">Smart home</a>
+          <a href="javascript:void(0)">Speakers</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="s-button">
+    <span (click)="openNav()">
+      <button class="btn btn-light ">Shop</button>
+    </span>
+  </div>
+
+</div>

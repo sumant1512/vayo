@@ -1,0 +1,131 @@
+.sticky {
+  position: sticky;
+  position: -webkit-sticky;
+  height: 540px;
+  top: 93px;
+  align-items: center;
+  padding-left: 4%;
+}
+
+.wrapper {
+  margin-top: 2% !important;
+}
+
+.pad {
+  padding: 0 60px;
+  padding-top: 40px;
+}
+
+.navbar {
+  border: 6px solid transparent;
+  padding: 8px 16px;
+}
+
+.span-f-pos-pl {
+  font-size: .75rem;
+  position: relative;
+  padding-left: .5rem;
+}
+
+.pad-l-r {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.text-bottom {
+  font-size: .625rem;
+  line-height: .75rem;
+}
+
+.phone {
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+@media screen and (max-width: 768px) {
+  .phone {
+      padding-left: 2px;
+      padding-right: 2px;
+  }
+  .sticky {
+      height: auto;
+      position: unset;
+  }
+}
+/* ************************************************************filter*********************** */
+.sm-Below {
+  display: none;
+}
+
+.ms-Above {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .ms-Above {
+      display: none;
+  }
+  .sm-Below {
+      display: block;
+      text-align: right;
+  }
+  .button-style {
+      font-size: 30px;
+      cursor: pointer;
+  }
+}
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {
+      overflow-y: auto;
+  }
+  .overlay a {
+      font-size: 20px
+  }
+  .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+  }
+}

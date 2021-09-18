@@ -1,0 +1,483 @@
+.head-top a {
+    height: 100%;
+    padding: 6px 8px;
+    font-size: 10px;
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: .9px;
+    text-transform: uppercase;
+    color: darkgray;
+}
+
+.myaccountdropdown.dropdown-menu {
+    line-height: 20px !important;
+}
+
+.pad-3 {
+    padding-top: 11px !important;
+}
+
+.main-nav button {
+    padding-bottom: 9px;
+}
+
+.head-top a .bg-white {
+    background-color: white;
+}
+
+.sticky-top .row nav {
+    box-shadow: 0px 3px 3px 0px grey;
+}
+
+.header-dropdown {
+    margin: 0px;
+    background-color: transparent;
+    padding-top: 16px;
+}
+
+.navbar-light {
+    font-size: 14px;
+}
+
+
+/* 
+a:hover,
+a {
+    background-color: white!important;
+} */
+
+.closebtn-menu {
+    position: static;
+    float: right;
+    padding-right: 5px;
+    font-size: 30px;
+    color: 0000b3;
+    margin-right: 10px;
+}
+
+.myaccountbutton {
+    width: 140px;
+    height: 52px;
+}
+
+.f-small {
+    font-size: 13px !important;
+}
+
+.f-small.myaccountitem {
+    font-weight: bolder !important;
+}
+
+.mid-nav {
+    margin-right: auto;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+
+.navbar-nav li {
+    border: none;
+}
+
+.navbar-nav>li:hover>a,
+.navbar-nav>li>.dropdown-menu>div>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    color: #0000b3;
+    background-color: white;
+}
+
+.navbar-nav>li>a,
+.dropdown-menu>a {
+    font-weight: bold;
+}
+
+.dropDown-border-top {
+    border-top: 2px solid #0000b3;
+}
+
+.myaccountbutton,
+.myaccountbutton:hover {
+    border: none;
+    background-color: #0000b3;
+    color: white!important;
+    line-height: 45px;
+    font-weight: bold;
+}
+
+.mar-t {
+    margin: 0px;
+    background-color: transparent;
+    padding-top: 25px;
+}
+
+.quickactionsfont {
+    font-weight: normal!important;
+    font-size: 10px;
+    font-weight: none;
+}
+
+
+/* .myaccountdropdown.show button.dropdown-toggle::after {
+      content: "\f106"!important;
+  } */
+
+.loginbutton {
+    background-color: #0000b3;
+    color: white!important;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.myaccountitem {
+    animation: myaccountanimate .5s linear forwards !important;
+}
+
+.myaccountmenu {
+    border: none;
+    margin-left: -67%;
+    font-size: 15px;
+    padding-top: 18px;
+    width: 200px;
+}
+
+@keyframes fade {
+    from {
+        visibility: hidden;
+        /* hides sub-menu */
+        opacity: 0;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        transform: translateY(-2em);
+        z-index: -1;
+        transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+    }
+    to {
+        visibility: visible;
+        /* shows sub-menu */
+        opacity: 1;
+        z-index: 1;
+        transform: translateY(0%);
+        transition-delay: 0s, 0s, 0.3s;
+    }
+}
+
+@keyframes myaccountanimate {
+    from {
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0px);
+    }
+}
+
+.right-nav-md {
+    display: none;
+}
+
+.mob-nav {
+    display: none;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 30px;
+    margin-left: 50px;
+    color: 0000b3;
+}
+
+.sidebar-menu {
+    height: 100%;
+    width: 0%;
+    left: 0;
+    margin-left: 60%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    padding-top: 10px;
+}
+
+.main-nav a,
+.main-nav button {
+    color: black;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+
+/* Extra large screens */
+
+@media only screen and (min-width: 1351px) {
+    .coveragedropdown:hover .dropdown-menu,
+    .dealsdropdown:hover .dropdown-menu,
+    .phonedevicesdropdown:hover .dropdown-menu,
+    .plansdropdown:hover .dropdown-menu,
+    .contactusdropdown:hover .dropdown-menu,
+    .benefitsdropdown:hover .dropdown-menu {
+        display: block;
+        font-weight: bold;
+        animation: fade .2s linear forwards;
+    }
+    .dropdown-toggle::after {
+        border: none!important;
+        font: normal bold normal 17px/1 FontAwesome;
+        content: "\f107"!important;
+        vertical-align: 0;
+    }
+    .coveragedropdown:hover a.dropdown-toggle::after,
+    .dealsdropdown:hover a.dropdown-toggle::after,
+    .phonedevicesdropdown:hover a.dropdown-toggle::after,
+    .plansdropdown:hover a.dropdown-toggle::after,
+    .contactusdropdown:hover a.dropdown-toggle::after,
+    .benefitsdropdown:hover a.dropdown-toggle::after {
+        content: "\f106"!important;
+    }
+    .dropdown-menu {
+        line-height: 40px;
+    }
+    .myaccountmenu {
+        line-height: 20px !important;
+        margin-top: -5px;
+    }
+    .navbar-collapse .navbar-nav li {
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+}
+
+
+/* desktop and laptop */
+
+@media only screen and (max-width: 1278px) and (min-width: 1019px) {
+    .right-nav-lg {
+        display: none !important;
+    }
+    .right-nav-md {
+        display: block;
+    }
+    .mob-nav {
+        display: none;
+    }
+    .vertical-menu {
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: -20px;
+    }
+    .right-nav-md ul {
+        align-items: center;
+    }
+    .myaccountmenu {
+        line-height: 20px !important;
+        margin-top: -5px;
+    }
+    .coveragedropdown:hover .dropdown-menu,
+    .dealsdropdown:hover .dropdown-menu,
+    .phonedevicesdropdown:hover .dropdown-menu,
+    .plansdropdown:hover .dropdown-menu,
+    .contactusdropdown:hover .dropdown-menu,
+    .benefitsdropdown:hover .dropdown-menu {
+        display: block;
+        font-weight: bold;
+        animation: fade .2s linear forwards;
+    }
+    .dropdown-toggle::after {
+        border: none!important;
+        font: normal bold normal 17px/1 FontAwesome;
+        content: "\f107"!important;
+        vertical-align: 0;
+    }
+    .coveragedropdown:hover a.dropdown-toggle::after,
+    .dealsdropdown:hover a.dropdown-toggle::after,
+    .phonedevicesdropdown:hover a.dropdown-toggle::after,
+    .plansdropdown:hover a.dropdown-toggle::after,
+    .contactusdropdown:hover a.dropdown-toggle::after,
+    .benefitsdropdown:hover a.dropdown-toggle::after {
+        content: "\f106"!important;
+    }
+    .dropdown-menu {
+        line-height: 40px;
+    }
+    .mar-t {
+        padding-top: 18px !important;
+    }
+}
+
+
+/* for tablets */
+
+@media only screen and (max-width: 1020px) and (min-width: 767px) {
+    .right-nav-lg {
+        display: none;
+    }
+    .right-nav-md {
+        display: none;
+    }
+    .mid-nav {
+        display: none !important;
+    }
+    .mob-nav {
+        display: block;
+    }
+    .vertical-menu {
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 15px;
+        width: 40%;
+        padding: 10px;
+        padding-right: 30px;
+    }
+    .dropdown-menu {
+        border: 0 !important;
+        line-height: 40px;
+    }
+    .loginbutton {
+        margin-top: 75px;
+        margin-left: 15px;
+        margin-right: 15px;
+        width: 92%;
+        border-radius: 0;
+    }
+}
+
+
+/* mobile devices */
+
+@media only screen and (max-width: 768px) {
+    .right-nav-lg {
+        display: none;
+    }
+    .right-nav-md {
+        display: none;
+    }
+    .mid-nav {
+        display: none !important;
+    }
+    .mob-nav {
+        display: block;
+    }
+    .vertical-menu {
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: -20px;
+        width: 100%;
+        padding: 10px;
+        padding-right: 20px;
+    }
+    .dropdown-menu {
+        border: 0 !important;
+    }
+    .sidebar-menu {
+        margin: 0;
+    }
+    .loginbutton {
+        margin-top: 75px;
+        margin-left: 15px;
+        margin-right: 15px;
+        width: 92%;
+        border-radius: 0;
+    }
+    .coveragedropdown:hover .dropdown-menu,
+    .dealsdropdown:hover .dropdown-menu,
+    .phonedevicesdropdown:hover .dropdown-menu,
+    .plansdropdown:hover .dropdown-menu,
+    .contactusdropdown:hover .dropdown-menu,
+    .benefitsdropdown:hover .dropdown-menu {
+        font-weight: bold;
+        animation: fade .2s linear forwards;
+    }
+    .dropdown-toggle::after {
+        border: none!important;
+        font: normal normal normal 12px/1 FontAwesome;
+        content: "\f067"!important;
+        vertical-align: 0;
+        float: right;
+        margin-top: 8px;
+    }
+    .coveragedropdown.show a.dropdown-toggle::after,
+    .dealsdropdown.show a.dropdown-toggle::after,
+    .phonedevicesdropdown.show a.dropdown-toggle::after,
+    .plansdropdown.show a.dropdown-toggle::after,
+    .contactusdropdown.show a.dropdown-toggle::after,
+    .benefitsdropdown.show a.dropdown-toggle::after {
+        content: "\f068"!important;
+        float: right;
+    }
+}
+
+
+/* animation of child of navbarlinks */
+
+.dropdown-item {
+    opacity: 0;
+    -webkit-animation: fadeIn 0.5s 1;
+    animation: fadeIn 0.2s 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.dropdown-item:nth-child(5n+1) {
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+
+.dropdown-item:nth-child(5n+2) {
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+
+.dropdown-item:nth-child(5n+3) {
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+
+.dropdown-item:nth-child(5n+4) {
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+
+.dropdown-item:nth-child(5n+5) {
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+
+
+/* Animation steps */
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0.0;
+        visibility: visible;
+        transform: translateX(-12px);
+    }
+    to {
+        opacity: 1.0;
+        visibility: visible;
+        transform: translateX(0px);
+    }
+}

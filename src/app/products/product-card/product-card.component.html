@@ -1,0 +1,21 @@
+<div class="card">
+
+  <div class="container-fluid d-card ">
+    <div class="offer">
+      <a href="#"> Save up to $580 on iphone XR See how. </a>
+    </div>
+    <div class="img-center">
+      <img src="{{product.skus[0].images[0].url}}"
+        alt="cards">
+    </div>
+    <div class="d-flex  btn-C">
+      <button class="btn btn-circle btn-sm Midnight-Green mr-2 " (click)="color(0)"></button>
+      <button class="btn btn-circle btn-sm Space-Gray mr-2 " (click)="color(1)"></button>
+      <button class="btn btn-circle btn-sm Rose-gold mr-2 " (click)="color(2)"></button>
+      <button class="btn btn-circle btn-sm Silver " (click)="color(3)"></button>
+    </div>
+    <p>{{product.manufacturer}}</p>
+    <h1>{{product.familyName}}</h1>
+    <p> FULL MRP: 125.33</p>
+  </div>
+</div>
